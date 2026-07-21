@@ -469,7 +469,7 @@ Planned improvements:
 For research collaboration inquiries or tool-specific questions:
 
 **Heiko Stark**  
-University of Jena
+Friedrich-Schiller-University Jena
 
 **Website:** https://stark-jena.de/  
 **Research:** https://stark-jena.de/research-interests/
