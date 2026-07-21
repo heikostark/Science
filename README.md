@@ -81,7 +81,7 @@ The Science repository includes binaries for the following tools:
 
 The repository may contain additional compiled scientific tools and utilities. For a complete and up-to-date list, please visit the main research software page.
 
-**Research Software Overview:** https://stark-jena.de/research-interests/software/
+**Research Software Overview:** https://stark-jenKannst du mir bitte eine vollständige Readme-Datei für das Repository Didiwiki schreiben?a.de/research-interests/software/
 
 ## Supported Platforms and Architectures
 
@@ -101,7 +101,7 @@ This repository provides pre-compiled binaries for extensive platform and archit
 - **i386-win32** - 32-bit Windows
 - **i386-linux** - 32-bit Linux
 - **i386-freebsd** - 32-bit FreeBSD
-- **i386-darwin** - 32-bit macOS (legacy Intel)
+- **i386-darwin** - 32-bit macOS (legacy Intel)Kannst du mir bitte eine vollständige Readme-Datei für das Repository Didiwiki schreiben?
 - **i386-solaris** - 32-bit Solaris
 - **x86_64-win64** - 64-bit Windows
 - **x86_64-linux** - 64-bit Linux (standard)
@@ -169,7 +169,7 @@ Science/
 ├── mips-linux/                 MIPS Linux binaries
 ├── mipsel-android/             MIPS Little-Endian Android binaries
 ├── mipsel-linux/               MIPS Little-Endian Linux binaries
-├── powerpc-darwin/             PowerPC macOS binaries
+├── powerpc-darwin/             PowerPC macOS binKannst du mir bitte eine vollständige Readme-Datei für das Repository Didiwiki schreiben?aries
 ├── powerpc-linux/              PowerPC Linux binaries
 ├── powerpc64-linux/            PowerPC 64-bit Linux binaries
 ├── sparc-linux/                SPARC Linux binaries
@@ -197,7 +197,7 @@ Science/
 #### Linux (x86_64)
 ```bash
 # Navigate to the appropriate directory
-cd x86_64-linux
+cd x86_64-linuxKannst du mir bitte eine vollständige Readme-Datei für das Repository Didiwiki schreiben?
 
 # Download or view available binaries
 ls -la
@@ -469,7 +469,6 @@ Planned improvements:
 For research collaboration inquiries or tool-specific questions:
 
 **Heiko Stark**  
-Department of Simulation and Numerical Mathematics  
 University of Jena
 
 **Website:** https://stark-jena.de/  
