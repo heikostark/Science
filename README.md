@@ -469,6 +469,7 @@ Planned improvements:
 For research collaboration inquiries or tool-specific questions:
 
 **Heiko Stark**  
+Institute of Zoology and Evolutionary Research
 Friedrich-Schiller-University Jena
 
 **Website:** https://stark-jena.de/  
