@@ -16,8 +16,16 @@ The repository currently contains the following tools and programs:
 - Scientific visualization workflows
 
 ### Enzyme2
-- Sequence and biomolecular analysis tool
-- Related to enzyme and sequence-processing workflows
+Enzyme2 is a command-line tool for processing and evaluating metabolic networks and microarray data. It uses data from Affymetrix microarray resources, BioCyc pathway/genome databases, and the Gene Ontology (GO) to support the analysis of metabolic pathways and gene-expression information.
+
+Typical capabilities include:
+- Metabolic network processing and evaluation
+- Analysis of microarray and expression data
+- Pathway and ontology integration
+- Database-driven research workflows for systems biology
+- Compatibility with tools such as Bioconductor, Cytoscape, Galaxy, Mayday, MeV, and Vanted
+
+The software is intended for non-commercial research use and provides a command documentation file (`enzyme2.macro`) that lists available commands when the program is started for the first time.
 
 ### FASTA2MAX
 - Conversion and processing of FASTA-based sequence data
