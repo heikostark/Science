@@ -32,13 +32,14 @@ The software is intended for non-commercial research use and provides a command 
 - Useful for preparing and transforming sequence data
 
 ### Hexagon
-Hexagon is a scientific analysis and visualization tool for geometric and spatial data. It is intended for workflows involving inspection, transformation, and quantitative analysis of structured scientific datasets.
+Hexagon is a command-line tool to simulate the Game of Life. With this cellular automaton, complex rules can be defined and the process over time displayed.
 
 Typical use cases include:
-- Analysis of geometric and spatial data
-- Visualization of structured scientific information
-- Coordinate-based transformations and measurements
-- Research workflows in imaging and computational analysis
+- Cellular automaton simulation
+- Rule-based life-like system modeling
+- Temporal evolution and pattern display
+- Experimentation with automaton behavior
+- Visualization of dynamic system states over time
 
 ### Image
 - Basic image processing and analysis tool
@@ -87,7 +88,7 @@ The repository is organized by architecture and operating system, for example:
 Science/
 ├── README.md
 ├── x86_64-linux/
-├── x86_64-win64/
+├���─ x86_64-win64/
 ├── x86_64-darwin/
 ├── aarch64-linux/
 ├── arm-linux/
