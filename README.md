@@ -11,9 +11,14 @@ The `Science` repository provides ready-to-use executables for research and comp
 The repository currently contains the following tools and programs:
 
 ### Cloud2
-- 3D visualization and processing of geometric and spatial data
-- Import/export of meshes, curves, and point clouds
-- Scientific visualization workflows
+Cloud2 is a powerful tool for processing different types of data. Cloud (to) can transform, process, and evaluate data such as point clouds, vector fields, space curves, and meshes. In addition, it has a powerful renderer that allows stunning graphics (see slideshow).
+
+Typical use cases include:
+- Point cloud processing
+- Geometric analysis and transformation
+- Mesh generation and evaluation
+- Vector field and curve analysis
+- Scientific visualization and rendering
 
 ### Enzyme2
 Enzyme2 is a command-line tool for processing and evaluating metabolic networks and microarray data. It uses data from Affymetrix microarray resources, BioCyc pathway/genome databases, and the Gene Ontology (GO) to support the analysis of metabolic pathways and gene-expression information.
@@ -88,7 +93,7 @@ The repository is organized by architecture and operating system, for example:
 Science/
 ├── README.md
 ├── x86_64-linux/
-├���─ x86_64-win64/
+├── x86_64-win64/
 ├── x86_64-darwin/
 ├── aarch64-linux/
 ├── arm-linux/
