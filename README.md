@@ -6,12 +6,15 @@ This repository contains pre-compiled binaries of scientific and image-processin
 
 The `Science` repository provides ready-to-use executables for research and computational work in areas such as scientific imaging, geometric analysis, sequence data processing, and visualization. Each tool is distributed as a platform-specific binary so it can be used directly after downloading the correct version.
 
+For additional project descriptions and documentation, see the main software overview at:
+https://stark-jena.de/research-interests/software/
+
 ## Included Software
 
 The repository currently contains the following tools and programs:
 
 ### Cloud2
-Cloud2 is a powerful tool for processing different types of data. Cloud (to) can transform, process, and evaluate data such as point clouds, vector fields, space curves, and meshes. In addition, it has a powerful renderer that allows stunning graphics (see slideshow).
+Cloud2 is a powerful tool for processing different types of data. Cloud2 can transform, process, and evaluate data such as point clouds, vector fields, space curves, and meshes. In addition, it has a powerful renderer that allows stunning graphics (see slideshow).
 
 Typical use cases include:
 - Point cloud processing
@@ -19,6 +22,8 @@ Typical use cases include:
 - Mesh generation and evaluation
 - Vector field and curve analysis
 - Scientific visualization and rendering
+
+Further information: https://stark-jena.de/research-interests/software/cloud2/
 
 ### Enzyme2
 Enzyme2 is a command-line tool for processing and evaluating metabolic networks and microarray data. It uses data from Affymetrix microarray resources, BioCyc pathway/genome databases, and the Gene Ontology (GO) to support the analysis of metabolic pathways and gene-expression information.
@@ -32,9 +37,13 @@ Typical capabilities include:
 
 The software is intended for non-commercial research use and provides a command documentation file (`enzyme2.macro`) that lists available commands when the program is started for the first time.
 
+Further information: https://stark-jena.de/research-interests/software/enzyme2/
+
 ### FASTA2MAX
 - Conversion and processing of FASTA-based sequence data
 - Useful for preparing and transforming sequence data
+
+Further information: https://stark-jena.de/research-interests/software/
 
 ### Hexagon
 Hexagon is a command-line tool to simulate the Game of Life. With this cellular automaton, complex rules can be defined and the process over time displayed.
@@ -45,6 +54,8 @@ Typical use cases include:
 - Temporal evolution and pattern display
 - Experimentation with automaton behavior
 - Visualization of dynamic system states over time
+
+Further information: https://stark-jena.de/research-interests/software/hexagon/
 
 ### ImageXD
 ImageXD is the successor to `image` and `image3d`; `image3d` already superseded `transform2`. ImageXD can be used for a wide range of applications. It processes 2D images, 3D image stacks, vector fields, tensor fields (`symmatrix`), surface networks (meshes), and unstructured data such as fibres and networks.
@@ -61,15 +72,23 @@ Typical applications include:
 
 The repository may still contain binaries named `image`, `image3d`, and `transform2` for legacy or platform-specific compatibility. For new workflows, ImageXD is the successor and should be preferred where a suitable binary is available.
 
+Further information: https://stark-jena.de/research-interests/software/imagexd/
+
 ### Launcher
 - Tool launcher / application entry point for the toolbox collection
+
+Further information: https://stark-jena.de/research-interests/software/
 
 ### Master
 - Central utility for toolbox access and project execution
 
+Further information: https://stark-jena.de/research-interests/software/master/
+
 ### VCF Dumper
 - Extraction and processing of VCF data
 - Used for variant data handling and export
+
+Further information: https://stark-jena.de/research-interests/software/
 
 ### X11 variants
 Several Unix/Linux builds include X11-based variants such as:
@@ -78,6 +97,8 @@ Several Unix/Linux builds include X11-based variants such as:
 - `Ximagexd`
 
 These are the graphical X-based executables intended for systems where the non-X variant is not applicable or sufficient.
+
+Further information: https://stark-jena.de/research-interests/software/
 
 ## Repository Structure
 
@@ -143,6 +164,8 @@ The tools in this repository are distributed as compiled binaries. Their source 
 ## Contact
 
 For questions or issues related to this repository, please refer to the maintainer and project pages associated with the original software.
+
+Research software overview: https://stark-jena.de/research-interests/software/
 
 ---
 
