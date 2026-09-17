@@ -1,10 +1,10 @@
 # Science - Compiled Scientific Tools Collection
 
-This repository contains pre-compiled binaries of scientific and image-processing tools assembled for multiple operating systems and CPU architectures. The software in this repository is organized by platform and architecture so that the correct executable can be selected quickly.
+This repository contains pre-compiled binaries of scientific and image-processing tools for multiple operating systems and CPU architectures. The programs are grouped by platform and architecture to make selection and execution straightforward.
 
 ## Overview
 
-The `Science` repository provides ready-to-use executables for research and computational work in fields such as microscopy, sequence analysis, scientific visualization, and image processing. The available programs are bundled as platform-specific binaries and can be used directly after downloading the appropriate archive or executable.
+The `Science` repository provides ready-to-use executables for research and computational work in areas such as scientific imaging, geometric analysis, sequence data processing, and visualization. Each tool is distributed as a platform-specific binary so it can be used directly after downloading the correct version.
 
 ## Included Software
 
@@ -21,17 +21,16 @@ The repository currently contains the following tools and programs:
 
 ### FASTA2MAX
 - Conversion and processing of FASTA-based sequence data
-- Useful for preparing and transforming sequence information
+- Useful for preparing and transforming sequence data
 
 ### Hexagon
-Hexagon is a scientific analysis and visualization tool focused on geometric, image-based, and spatial data processing. It is designed for research workflows that require inspection, transformation, and quantitative analysis of structured data in 2D and 3D contexts.
+Hexagon is a scientific analysis and visualization tool for geometric and spatial data. It is intended for workflows involving inspection, transformation, and quantitative analysis of structured scientific datasets.
 
 Typical use cases include:
-- Analysis of scientific image and geometry data
-- Visualization of structured spatial information
-- Transformation and measurement of coordinate-based data
-- Research workflows in microscopy, imaging, and computational analysis
-- Use alongside related tools in the `Science` collection for data preparation and exploration
+- Analysis of geometric and spatial data
+- Visualization of structured scientific information
+- Coordinate-based transformations and measurements
+- Research workflows in imaging and computational analysis
 
 ### Image
 - Basic image processing and analysis tool
@@ -42,8 +41,13 @@ Typical use cases include:
 - Supports volumetric scientific image workflows
 
 ### ImageXD
-- Extended image display and processing tool
-- Often used for scientific image inspection and manipulation
+ImageXD is the image display and processing component of the toolkit. It is designed for scientific image inspection, viewing, and manipulation, and is suited to workflows that require detailed examination of image data.
+
+Typical applications include:
+- Scientific image display and inspection
+- Image processing and enhancement
+- Visual review of microscopy or measurement data
+- Image-based analysis workflows in research environments
 
 ### Launcher
 - Tool launcher / application entry point for the toolbox collection
@@ -60,12 +64,12 @@ Typical use cases include:
 - Used for variant data handling and export
 
 ### X11 variants
-Several Unix/Linux versions are shipped with X11-based variants such as:
+Several Unix/Linux builds include X11-based variants such as:
 - `Xenzyme2`
 - `Xhexagon`
 - `Ximagexd`
 
-These are the graphical X-based executables for systems where the non-X variant is insufficient or not applicable.
+These are the graphical X-based executables intended for systems where the non-X variant is not applicable or sufficient.
 
 ## Repository Structure
 
@@ -130,7 +134,7 @@ The tools in this repository are distributed as compiled binaries. Their source 
 
 ## Contact
 
-For questions or issues related to this repository, please refer to the maintainer and repository project pages associated with the original software.
+For questions or issues related to this repository, please refer to the maintainer and project pages associated with the original software.
 
 ---
 
