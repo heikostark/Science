@@ -46,32 +46,26 @@ Typical use cases include:
 - Experimentation with automaton behavior
 - Visualization of dynamic system states over time
 
-### Image
-- Basic image processing and analysis tool
-- Used for viewing and manipulating image data
-
-### Image3D
-- 3D image processing and analysis utility
-- Supports volumetric scientific image workflows
-
 ### ImageXD
-ImageXD is the image display and processing component of the toolkit. It is designed for scientific image inspection, viewing, and manipulation, and is suited to workflows that require detailed examination of image data.
+ImageXD is the successor to `image` and `image3d`; `image3d` already superseded `transform2`. ImageXD can be used for a wide range of applications. It processes 2D images, 3D image stacks, vector fields, tensor fields (`symmatrix`), surface networks (meshes), and unstructured data such as fibres and networks.
+
+The program is designed for large scientific datasets. On 64-bit systems, the addressable dataset size is principally limited by the available hardware and operating-system resources (up to approximately 2^64 bytes in the address space), rather than by a small fixed application limit. Many functions are optimized for multicore processors.
 
 Typical applications include:
-- Scientific image display and inspection
-- Image processing and enhancement
-- Visual review of microscopy or measurement data
-- Image-based analysis workflows in research environments
+- 2D image processing
+- 3D image-stack and volumetric-data processing
+- Vector-field and tensor-field analysis
+- Processing of meshes and surface networks
+- Analysis of fibres, networks, and other unstructured data
+- Multicore-enabled scientific image and dataset processing
+
+The repository may still contain binaries named `image`, `image3d`, and `transform2` for legacy or platform-specific compatibility. For new workflows, ImageXD is the successor and should be preferred where a suitable binary is available.
 
 ### Launcher
 - Tool launcher / application entry point for the toolbox collection
 
 ### Master
 - Central utility for toolbox access and project execution
-
-### Transform2
-- Transformation and coordinate-processing tool
-- Useful in geometric and image-based workflows
 
 ### VCF Dumper
 - Extraction and processing of VCF data
@@ -98,7 +92,7 @@ Science/
 ├── aarch64-linux/
 ├── arm-linux/
 ├── i386-linux/
-├── x86_64_freebsd/
+├── x86_64-freebsd/
 ├── x86_64_avx-linux/
 ├── ...
 └── platform-specific binaries
