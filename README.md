@@ -160,7 +160,7 @@ Science/
 ├── arm-linux/                  ARM 32-bit Linux binaries
 ├── arm-wince/                  ARM Windows CE binaries
 ├── i386-android/               Intel 32-bit Android binaries
-���── i386-darwin/                Intel 32-bit macOS binaries (legacy)
+├── i386-darwin/                Intel 32-bit macOS binaries (legacy)
 ├── i386-freebsd/               Intel 32-bit FreeBSD binaries
 ├── i386-linux/                 Intel 32-bit Linux binaries
 ├── i386-solaris/               Intel 32-bit Solaris binaries
