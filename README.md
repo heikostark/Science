@@ -24,8 +24,14 @@ The repository currently contains the following tools and programs:
 - Useful for preparing and transforming sequence information
 
 ### Hexagon
-- Geometry and image analysis utility
-- General scientific visualization and processing support
+Hexagon is a scientific analysis and visualization tool focused on geometric, image-based, and spatial data processing. It is designed for research workflows that require inspection, transformation, and quantitative analysis of structured data in 2D and 3D contexts.
+
+Typical use cases include:
+- Analysis of scientific image and geometry data
+- Visualization of structured spatial information
+- Transformation and measurement of coordinate-based data
+- Research workflows in microscopy, imaging, and computational analysis
+- Use alongside related tools in the `Science` collection for data preparation and exploration
 
 ### Image
 - Basic image processing and analysis tool
